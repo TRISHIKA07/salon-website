@@ -8,12 +8,13 @@ export default function LuxurySalonWebsite() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             
-            <h1 className="text-2xl font-bold tracking-wide text-white">
-              <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2">
   <img src={logo} className="w-10 h-10 rounded-full" />
-  <h1>Bliss Prime Salon</h1>
+
+  <h1 className="text-2xl font-bold tracking-wide text-white">
+    Bliss Prime Salon
+  </h1>
 </div>
-            </h1>
           </div>
 
           <div className="hidden md:flex gap-8 text-sm font-medium">
