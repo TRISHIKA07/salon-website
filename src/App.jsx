@@ -1,27 +1,28 @@
+import logo from './assets/logo1.jpeg'
+import interior from './assets/interior.jpeg'
 export default function LuxurySalonWebsite() {
   return (
-    <div className="bg-[#1A0B2E] text-white min-h-screen font-sans overflow-x-hidden">
+    <div className="bg-[#390531] text-white min-h-screen font-sans overflow-x-hidden">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A0B2E]/80 backdrop-blur-md border-b border-[#FF8C42]/20">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img
-              src="https://via.placeholder.com/60x60.png?text=Logo"
-              alt="Salon Logo"
-              className="w-12 h-12 rounded-full border-2 border-[#FF8C42]"
-            />
+            
             <h1 className="text-2xl font-bold tracking-wide text-white">
-              Luxe Aura Salon
+              <div className="flex items-center gap-2">
+  <img src={logo} className="w-10 h-10 rounded-full" />
+  <h1>Bliss Prime Salon</h1>
+</div>
             </h1>
           </div>
 
           <div className="hidden md:flex gap-8 text-sm font-medium">
-            <a href="#home" className="hover:text-[#FF8C42] transition">Home</a>
-            <a href="#about" className="hover:text-[#FF8C42] transition">About</a>
-            <a href="#services" className="hover:text-[#FF8C42] transition">Services</a>
-            <a href="#gallery" className="hover:text-[#FF8C42] transition">Gallery</a>
-            <a href="#locations" className="hover:text-[#FF8C42] transition">Locations</a>
-            <a href="#contact" className="hover:text-[#FF8C42] transition">Contact</a>
+            <a href="#home" className="hover:text-[#F26E24] transition">Home</a>
+            <a href="#about" className="hover:text-[#F26E24] transition">About</a>
+            <a href="#services" className="hover:text-[#F26E24] transition">Services</a>
+            <a href="#gallery" className="hover:text-[#F26E24] transition">Gallery</a>
+            <a href="#locations" className="hover:text-[#F26E24] transition">Locations</a>
+            <a href="#contact" className="hover:text-[#F26E24] transition">Contact</a>
           </div>
         </div>
       </nav>
@@ -56,7 +57,7 @@ export default function LuxurySalonWebsite() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-[#FF8C42] hover:bg-[#ff9c5e] px-8 py-4 rounded-full text-lg font-semibold transition shadow-lg shadow-[#FF8C42]/40">
-              Book Appointment
+              Contact us
             </button>
 
             <button className="border border-white hover:border-[#FF8C42] hover:text-[#FF8C42] px-8 py-4 rounded-full text-lg transition">
@@ -87,7 +88,7 @@ export default function LuxurySalonWebsite() {
             </h2>
 
             <p className="text-gray-300 leading-relaxed mb-6">
-              Welcome to Luxe Aura Salon, your premium destination for beauty,
+              Welcome to Bliss Prime Salon, your premium destination for beauty,
               glamour, and self-care. We specialize in luxury hair styling,
               bridal makeup, facials, spa treatments, and modern beauty
               transformations.
@@ -197,7 +198,7 @@ export default function LuxurySalonWebsite() {
           </p>
 
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/bliss_prime_by_purnima?igsh=MTExYmU0ZXo1aGVnZg=="
             target="_blank"
             className="inline-block bg-[#FF8C42] hover:bg-[#ff9c5e] px-10 py-4 rounded-full text-lg font-semibold transition shadow-lg shadow-[#FF8C42]/30"
           >
@@ -221,12 +222,12 @@ export default function LuxurySalonWebsite() {
             <h3 className="text-3xl font-bold mb-4">Branch 1</h3>
 
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Insert Your First Salon Address Here, Raipur, Chhattisgarh.
+              Pani Tanki, LIG 161, next to Nagar Nigam Complex, Sector 2, Shankar Nagar, Raipur, Chhattisgarh 492004
             </p>
 
             <div className="flex gap-4 flex-wrap">
               <a
-                href="https://maps.google.com"
+                href="https://maps.app.goo.gl/mXBf9BNzct9HzYvG9?g_st=ic"
                 target="_blank"
                 className="bg-[#FF8C42] px-6 py-3 rounded-full font-medium"
               >
@@ -281,7 +282,7 @@ export default function LuxurySalonWebsite() {
             </p>
 
             <div className="space-y-4 text-lg text-gray-300">
-              <p>📞 +91 9876543210</p>
+              <p>📞 +91 9353254491</p>
               <p>📧 yoursalon@email.com</p>
               <p>📍 Raipur, Chhattisgarh</p>
             </div>
@@ -320,19 +321,19 @@ export default function LuxurySalonWebsite() {
         <h2 className="text-3xl font-bold mb-4">Luxe Aura Salon</h2>
 
         <div className="flex justify-center gap-6 mb-6 text-gray-300">
-          <a href="https://instagram.com" target="_blank" className="hover:text-[#FF8C42]">Instagram</a>
+          <a href="https://www.instagram.com/bliss_prime_by_purnima?igsh=MTExYmU0ZXo1aGVnZg==" target="_blank" className="hover:text-[#FF8C42]">Instagram</a>
           <a href="https://facebook.com" target="_blank" className="hover:text-[#FF8C42]">Facebook</a>
           <a href="https://wa.me/919876543210" target="_blank" className="hover:text-[#FF8C42]">WhatsApp</a>
         </div>
 
         <p className="text-gray-500">
-          © 2026 Luxe Aura Salon. All Rights Reserved.
+          © 2026 Bliss Prime Salon. All Rights Reserved.
         </p>
       </footer>
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/919876543210"
+        href="https://wa.me/919353254491"
         target="_blank"
         className="fixed bottom-6 right-6 bg-[#FF8C42] w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl shadow-[#FF8C42]/40 hover:scale-110 transition"
       >
