@@ -1,6 +1,6 @@
 import logo from './assets/logo1.jpeg'
 import interior from './assets/interior.jpeg'
-export default function TEXT WEBSITE() {
+export default function TEXTWEBSITE() {
   return (
     <div className="bg-[#390531] text-white min-h-screen font-sans overflow-x-hidden">
       {/* Navbar */}
