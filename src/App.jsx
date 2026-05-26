@@ -1,6 +1,6 @@
 import logo from './assets/logo1.jpeg'
 import interior from './assets/interior.jpeg'
-export default function LuxurySalonWebsite() {
+export default function TEXT WEBSITE() {
   return (
     <div className="bg-[#390531] text-white min-h-screen font-sans overflow-x-hidden">
       {/* Navbar */}
