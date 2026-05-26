@@ -89,8 +89,8 @@ export default function LuxurySalonWebsite() {
 
             <p className="text-gray-300 leading-relaxed mb-6">
               Welcome to Bliss Prime Salon, your premium destination for beauty,
-              glamour, and self-care. We specialize in luxury hair styling,
-              bridal makeup, facials, spa treatments, and modern beauty
+              glamour, and self-care. We specialize in hair styling,
+              bridal makeup, facials, spa treatments, modern and trendy beauty
               transformations.
             </p>
 
