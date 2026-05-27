@@ -4,20 +4,20 @@ export default function TEXTWEBSITE() {
   return (
     <div className="bg-[#390531] text-white min-h-screen font-sans overflow-x-hidden">
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A0B2E]/80 backdrop-blur-md border-b border-[#FF8C42]/20">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-[#f26e24]/ backdrop-blur-md border-b border-[#f26e24]/20">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             
             <div className="flex items-center gap-2">
   <img src={logo} className="w-10 h-10 rounded-full" />
 
-  <h1 className="text-2xl font-bold tracking-wide text-white">
+  <h1 className="text-4xl font-bold tracking-wide text-white">
     Bliss Prime Salon
   </h1>
 </div>
           </div>
 
-          <div className="hidden md:flex gap-8 text-sm font-medium">
+          <div className="hidden md:flex gap-8 text-sm font-semibold">
             <a href="#home" className="hover:text-[#F26E24] transition">Home</a>
             <a href="#about" className="hover:text-[#F26E24] transition">About</a>
             <a href="#services" className="hover:text-[#F26E24] transition">Services</a>
@@ -57,13 +57,18 @@ export default function TEXTWEBSITE() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-[#FF8C42] hover:bg-[#ff9c5e] px-8 py-4 rounded-full text-lg font-semibold transition shadow-lg shadow-[#FF8C42]/40">
-              Contact us
-            </button>
-
-            <button className="border border-white hover:border-[#FF8C42] hover:text-[#FF8C42] px-8 py-4 rounded-full text-lg transition">
-              Explore Services
-            </button>
+           <a
+  href="#contact"
+  className="bg-[#FF8C42] hover:bg-[#ff9c5e] px-8 py-4 rounded-full text-lg font-semibold transition shadow-lg shadow-[#FF8C42]/40 inline-block"
+>
+  Contact us
+</a>
+            <a
+  href="#services"
+  className="border border-white hover:border-[#FF8C42] hover:text-[#FF8C42] px-8 py-4 rounded-full text-lg transition inline-block"
+>
+  Explore Services
+</a>
           </div>
         </div>
       </section>
