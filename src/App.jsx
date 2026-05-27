@@ -215,6 +215,31 @@ export default function TEXTWEBSITE() {
     ))}
   </div>
 </section>
+{/* Instagram Section */}
+<section className="py-24 bg-[#140822] px-6 text-center">
+  <div className="max-w-4xl mx-auto">
+    <p className="text-[#f26e24] uppercase tracking-widest mb-3">
+      Follow Us
+    </p>
+
+    <h2 className="text-5xl font-bold mb-6">
+      Instagram Reels & Beauty Trends
+    </h2>
+
+    <p className="text-gray-300 mb-10">
+      Stay connected with our latest transformations, bridal makeovers,
+      and luxury salon moments.
+    </p>
+
+    <a
+      href="https://www.instagram.com/bliss_prime_by_purnima"
+      target="_blank"
+      className="inline-block bg-[#f26e24] hover:bg-[#ff9c5e] px-10 py-4 rounded-full text-lg font-semibold transition"
+    >
+      Visit Instagram
+    </a>
+  </div>
+</section>
       {/* Locations */}
       <section id="locations" className="py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-16">
