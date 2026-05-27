@@ -324,7 +324,7 @@ export default function TEXTWEBSITE() {
         <div className="flex justify-center gap-6 mb-6 text-gray-300">
           <a href="https://www.instagram.com/bliss_prime_by_purnima?igsh=MTExYmU0ZXo1aGVnZg==" target="_blank" className="hover:text-[#FF8C42]">Instagram</a>
           <a href="https://facebook.com" target="_blank" className="hover:text-[#FF8C42]">Facebook</a>
-          <a href="https://wa.me/919876543210" target="_blank" className="hover:text-[#FF8C42]">WhatsApp</a>
+          <a href="https://wa.me/918252848105" target="_blank" className="hover:text-[#FF8C42]">WhatsApp</a>
         </div>
 
         <p className="text-gray-500">
@@ -334,7 +334,7 @@ export default function TEXTWEBSITE() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/919353254491"
+        href="https://wa.me/918252848105"
         target="_blank"
         className="fixed bottom-6 right-6 bg-[#FF8C42] w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl shadow-[#FF8C42]/40 hover:scale-110 transition"
       >
